@@ -162,7 +162,7 @@ For Model Z, we observe the addition of ResNet18 to the previous ensemble result
 
 **Conclusion**
 
-In this study, we explored various models and ensemble techniques to classify images into 102 distinct categories for flower image classification. By examining the performance of individual models such as ResNet18, VGG16, VGG19, and DeiT, we observed that transformer-based models like DeiT outperformed convolutional networks on our relatively small dataset. Soft voting ensemble strategy combined the strengths of both convolutional networks and transformers, allowing for learning on both fine-grained details of images and broader contextual information, achieving improved results over individual models. Overall, we chose the ensemble of VGG16, VGG19 and DieT (Model Y) to be the best combination.
+In this study, we explored various models and ensemble techniques to classify images into 102 distinct categories for flower image classification. By examining the performance of individual models such as ResNet18, VGG16, VGG19, and DeiT, we observed that transformer-based models like DeiT outperformed convolutional networks on our relatively small dataset. Soft voting ensemble strategy combined the strengths of both convolutional networks and transformers, allowing for learning on both fine-grained details of images and broader contextual information, achieving improved results over individual models. Overall, we chose the ensemble of VGG16, VGG19 and DeiT (Model Y) to be the best combination.
 
 Future work could explore additional transformer methods or ensemble methods to push performance even further.
 
